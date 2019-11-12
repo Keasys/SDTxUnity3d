@@ -1,0 +1,4 @@
+﻿  SDTCommon.cpp
+c:\users\alecs\source\repos\libsdt\libsdt\sdtcommon.cpp(178): warning C4018: '<=': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtcommon.cpp(188): warning C4018: '<=': errata corrispondenza tra signed e unsigned
+  libSDT.vcxproj -> C:\Users\alecs\source\repos\libSDT\Debug\libSDT.dll

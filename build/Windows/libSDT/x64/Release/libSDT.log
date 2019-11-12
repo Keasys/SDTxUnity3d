@@ -1,0 +1,45 @@
+﻿  stdafx.cpp
+  SDTOscillators.cpp
+c:\users\alecs\downloads\sdt-master\sdt-master\src\sdt\sdtoscillators.cpp(31): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+  dllmain.cpp
+  SDTCommon.cpp
+c:\users\alecs\source\repos\libsdt\libsdt\sdtcommon.cpp(178): warning C4018: '<=': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtcommon.cpp(188): warning C4018: '<=': errata corrispondenza tra signed e unsigned
+  SDTComplex.cpp
+c:\users\alecs\source\repos\libsdt\libsdt\sdtcomplex.cpp(12): warning C4091: 'typedef ': ignorato a sinistra di 'SDTComplex' quando non si dichiara alcuna variabile
+  SDTControl.cpp
+  SDTEffects.cpp
+c:\users\alecs\source\repos\libsdt\libsdt\sdteffects.cpp(212): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\alecs\source\repos\libsdt\libsdt\sdteffects.cpp(246): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+  SDTFFT.cpp
+  SDTFilters.cpp
+c:\users\alecs\source\repos\libsdt\libsdt\sdtfilters.cpp(383): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtfilters.cpp(455): warning C4244: '=': conversione da 'double' a 'long'. Possibile perdita di dati.
+  SDTGases.cpp
+c:\users\alecs\source\repos\libsdt\libsdt\sdtgases.cpp(252): warning C4244: '=': conversione da 'double' a 'long'. Possibile perdita di dati.
+c:\users\alecs\source\repos\libsdt\libsdt\sdtgases.cpp(253): warning C4244: '=': conversione da 'double' a 'long'. Possibile perdita di dati.
+  SDTInteractors.cpp
+c:\users\alecs\source\repos\libsdt\libsdt\sdtinteractors.cpp(67): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+  SDTLiquids.cpp
+  SDTResonators.cpp
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(121): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(136): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(152): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(153): warning C4018: '<=': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(159): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(192): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(205): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(220): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(231): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(240): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(247): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(254): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(261): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(282): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\alecs\source\repos\libsdt\libsdt\sdtresonators.cpp(297): warning C4018: '<': errata corrispondenza tra signed e unsigned
+  SDTStructs.cpp
+     Creazione della libreria C:\Users\alecs\source\repos\SDT\x64\Release\libSDT.lib e dell'oggetto C:\Users\alecs\source\repos\SDT\x64\Release\libSDT.exp
+  Generazione codice in corso...
+  All 280 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generazione codice terminata
+  libSDT.vcxproj -> C:\Users\alecs\source\repos\SDT\x64\Release\libSDT.dll
