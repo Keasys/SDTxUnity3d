@@ -26,11 +26,11 @@ SampleRate object provides temporal granularity for any other object to produce 
 ##  Bubble
 
 Bubble object are a mathematical modelization of a bubble's sound it has three parameters
-..* radius
+* radius
     bubble's radius
-..* depth
+* depth
     bubble's distance from the surface
-..* riseFactor
+* riseFactor
     velocity at which the bubble reach the surface
   
 ## FluidFlow
