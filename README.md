@@ -26,34 +26,47 @@ SampleRate object provides temporal granularity for any other object to produce 
 ##  Bubble
 
 Bubble object are a mathematical modelization of a bubble's sound it has three parameters
-* radius
-
-    bubble's radius
-* depth
-
-    bubble's distance from the surface
-* riseFactor
-
-    velocity at which the bubble reach the surface
-* update
-    
-    reset the bubble at inititial values, being able to make sound again
-    
+* radius: bubble's radius
+* depth: bubble's distance from the surface
+* riseFactor: velocity at which the bubble reach the surface
+Class' exposing a method to reset the bubble's sound process
+* update    
   
 ## FluidFlow
-Fluidflow 
+Fluidflow objects are continous flows of liquids, implemented as a population of bubble measured in number of bubbles per second.
+Parameters for bubble modeling are the same ones exposed for the bubble object. The only difference is that in this case parameters model the population of bubble givining a minimum, a maximum and an expected value ( between 0 and 1 ) for every bubble parameter.
   
 ## WindFlow
+WindFlow models sound produced by wind hitting a large surface, depending on its irreguarities.The resulting sound is modeled through a bandpass-filtered white noise generator. The center frequency and bandwidth of the filter are empirically set to fixed values, while
+the resulting output is modulated in amplitude according to the velocity of the air flow.
+The only parameter exposed is the wind's speed.
   
 ## WindCavity
+WindCavity synthesises the sound of wind inside a cavity of a certain diameter and length. Wind's speed parameter is exposed as well
   
 ## WindKarman
+WindKarman simulates the howling sound of wind, hitting through thin objects like wires or brench's trees.
+Parameters exposed are wind speed and diameter of the object being hit.
   
 ## Explosion
   
 ## Resonator
+Resonator is a more complex resonating object, modeled as a spring-mass mechanical oscillator.Resonant modes can be blended together and weighted differently depending on the chosen pickup point, simulating different sonic reactions of an object according to the point hit.
+*setters
+..*Posiotion
+..*Velocity
+..*Frequency
+..*Decay
+..*Weight
+..*Gain
+..*FragmentSize
+..*activeModes
+*applyForce
+*computeEnergy
   
 ## Interactor ( Impact - Friction )
+Interactors is an abstract class which can be built only by his subclasses constructors: Impact and Fraction
+The first modeling an impact, the second a friction between two resonators
   
 ## Control
 
