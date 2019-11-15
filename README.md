@@ -12,10 +12,10 @@ C# wrapper for SoundDesignToolkit, physical modelling synthesis engine
 libSDT is a physical modeling synthesis engine written in C originally to be embedded in a Pure Data/ Max MSP environment.
 Here's an attempt to make this library embeddable in a C# environment like Unity3d.
 
-Every class is equipped with a .dsp method and several setters to control synthesis parameters in real-time.
+Every class is equipped with a .dsp method, which renders the audio, and several setters to control synthesis parameters in real-time.
 The MonoBehaviour script needs to implement *OnAudioFilterRead()*, provided by UnityEngine. This procedure is called any sampling period to fill the Unity's audio buffer. In this function we want to call *.dsp()* on any object we are implementing in the scene we want to produce sound.
 
-In order to do this we must create a SampleRate object, having a sample rate according to the Unity's audio settings. SampleRate handles real-time temporization for any other object, if not set other objects won't work.
+In order to do this we must create a SampleRate object, having a sample rate according to Unity's audio settings.
 
 
 
@@ -27,13 +27,21 @@ SampleRate object provides temporal granularity for any other object to produce 
 
 Bubble object are a mathematical modelization of a bubble's sound it has three parameters
 * radius
+
     bubble's radius
 * depth
+
     bubble's distance from the surface
 * riseFactor
+
     velocity at which the bubble reach the surface
+* update
+    
+    reset the bubble at inititial values, being able to make sound again
+    
   
 ## FluidFlow
+Fluidflow 
   
 ## WindFlow
   
