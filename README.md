@@ -52,16 +52,27 @@ Parameters exposed are wind speed and diameter of the object being hit.
   
 ## Resonator
 Resonator is a more complex resonating object, modeled as a spring-mass mechanical oscillator.Resonant modes can be blended together and weighted differently depending on the chosen pickup point, simulating different sonic reactions of an object according to the point hit.
+
 *setters
+
 ..*Posiotion
+
 ..*Velocity
+
 ..*Frequency
+
 ..*Decay
+
 ..*Weight
+
 ..*Gain
+
 ..*FragmentSize
+
 ..*activeModes
+
 *applyForce
+
 *computeEnergy
   
 ## Interactor ( Impact - Friction )
